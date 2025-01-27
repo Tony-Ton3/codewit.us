@@ -1,0 +1,26 @@
+{
+  "name": "@codewit/ui",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./components": {
+      "import": "./components/index.mjs",
+      "require": "./components/index.js"
+    },
+    "./lib/utils": {
+      "import": "./lib/utils/index.mjs",
+      "require": "./lib/utils/index.js"
+    }
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0"
+  }
+}

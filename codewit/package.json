@@ -14,9 +14,11 @@
     "@heroicons/react": "^2.1.1",
     "@monaco-editor/react": "^4.6.0",
     "@nrwl/node": "^18.0.1",
+    "@radix-ui/react-slot": "^1.1.1",
     "@types/express-session": "^1.18.0",
     "@uiw/react-markdown-editor": "^6.0.0",
     "axios": "^1.6.0",
+    "class-variance-authority": "^0.7.1",
     "commander": "^12.0.0",
     "express": "~4.18.1",
     "express-session": "^1.18.0",
@@ -35,12 +37,15 @@
     "react-toastify": "^10.0.6",
     "remark-gfm": "^4.0.0",
     "sequelize": "^6.36.0",
+    "shadcn": "^2.1.8",
     "tslib": "^2.3.0",
     "unique-names-generator": "^4.7.1",
     "zod": "^3.22.4",
     "zod-validation-error": "^3.0.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
     "@nx/cypress": "18.0.1",
     "@nx/esbuild": "18.0.1",
     "@nx/eslint": "18.0.1",
@@ -93,6 +98,7 @@
     "ts-node": "10.9.1",
     "typescript": "~5.3.2",
     "vite": "^5.0.0",
+    "vite-plugin-dts": "~2.3.0",
     "vitest": "^1.0.4"
   }
 }

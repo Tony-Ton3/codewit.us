@@ -10,6 +10,7 @@ module.exports = {
       __dirname,
       '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}'
     ),
+    '../../lib/shared/ui/src/**/*.{js,jsx,ts,tsx}',
     flowbite.content(),
     ...createGlobPatternsForDependencies(__dirname),
   ],
